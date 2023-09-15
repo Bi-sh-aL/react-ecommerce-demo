@@ -1,0 +1,38 @@
+.s-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    &:focus{
+        outline: none;
+    }
+   
+}
+.s-product{
+img{
+    margin-left: 50% !important;
+    transform: translateX(-50%);
+}
+}
+.btn{
+    background-color: transparent;
+    border-radius: 16px;
+    font-size: 0.9rem !important;
+    color: var(--black);
+    border-color: var(--black);
+    margin-left: 1rem;
+    align-items: center;
+    &:hover{
+        background: transparent;
+        color: var(--black);
+        border-color: var(--black);
+    }
+}
+@media screen and (max-width: 856px){
+    .s-container{
+      img{
+        margin-left: 10rem !important;
+      }
+    }
+}
