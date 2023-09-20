@@ -20,7 +20,7 @@ function Details() {
 
     <div className='row'>
         <div className='i-border col-lg-5 col-md-6 col-12'>
-            <img className='img-fluid pt-1' src={pd.img} alt="" />
+            <img className='pt-1'src={pd.img}  height={350}  alt="" />
 
         </div>
         <div className='col-lg-6 col-md-6 col-12'>
