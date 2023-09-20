@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigation } from 'swiper/modules';
+import { Autoplay,Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import ProductData from "../../data/ProductData";
 import "swiper/css";
@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 
 function Slider() {
   return (
-    <div className="s-container">
+    <div className="s-container container">
       <Swiper
-              modules={[Navigation]}
+              modules={[Navigation,Autoplay]}
               spaceBetween={50}
               slidesPerView={3}
               navigation={true}
@@ -22,13 +22,17 @@ function Slider() {
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log('slide change')}
               className="mySwiper"
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
               breakpoints={{
                 640:{
                   slidesPerView: 3,
                   spaceBetween: 20
                 },
                 0:{
-                  slidesPerView: 2
+                  slidesPerView: 1
                 }
               }}
       >

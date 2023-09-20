@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 function Hero() {
   const transition = {duration: 3, type: "spring"};
   return (
-    <div className="hero-container">
+    <div className="hero-container container">
       {/* Left Side */}
       <div className="h_sides">
         <span className="text1">skin protection cream</span>

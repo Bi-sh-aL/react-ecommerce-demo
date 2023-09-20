@@ -11,12 +11,12 @@ import 'swiper/css/pagination';
 
 function Testimonial() {
   return (
-    <div className="testimonial-container">
+    <div className="testimonial-container container">
   
       <div className="t-wrapper">
       <div className="test-container">
         <span>Top Rated</span>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, fuga.</span>
+        <span>Lorem ipsum dolor sit amet consectetur.</span>
         </div>
 
       <img src={Hero} alt="" />

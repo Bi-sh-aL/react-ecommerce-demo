@@ -1,5 +1,5 @@
 .f-container{
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,10 @@
         width: 8rem;
         left: 30%;
         top: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+        font-weight: 700;
     }
 }
 .products{
@@ -82,5 +86,7 @@
    }
    .f-container{
     text-align: center;
+
    }
+   
 }

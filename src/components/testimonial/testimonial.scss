@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
     
 }
 .t-wrapper{
@@ -50,7 +50,7 @@
 }
 
 .t-carousel{
-    padding: 2rem;
+    padding: 2rem 0;
     overflow: hidden;
 }
 
@@ -98,5 +98,8 @@
         >:nth-child(3), :nth-child(3){
             text-align: center;
         }
+    }
+    .test-container{
+        text-align: center;
     }
 }
